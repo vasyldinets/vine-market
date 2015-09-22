@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic,300);
 a,
 input[type="submit"],
 input[type="button"],
@@ -5,4 +6,62 @@ button{
 	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+body {
+min-width: 300px;
+margin:50px 70px;
+padding:0 20px 25px;
+font-family: "Lato", sans-serif;
+color: #47a3da;
+border: 3px solid #47a3da;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	color: #47a3da;
+	font-size: 2em;
+	margin: 0;
+}
+.ba-header {
+	font-size: 	0.75em;
+	border-bottom: 3px solid #47a3da;
+}
+.ba-width-1-3 {
+	min-width: 300px;
+	padding: 25px;
+    margin: 20px 0 0;
+	min-height: 420px;
+	text-align: center;
+}
+.ba-width-1-3 span {
+	display: block;
+	margin: 10px;
+	font-size: 	1.5em;
+	color: #c0c0c0;
+}
+.ba-width-1-3 p {
+	margin: 0;
+	max-width: 300px;
+    min-height: 70px;
+}
+.ba-button {
+	display: inline-block;
+	color: #fff;
+    background: #47a3da;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin: 20px 0 0;
+}
+.ba-button:before {
+	content: "\271A";
+	display: inline-block;
+	font-size: 0.75em;
+	height: 15px;
+	width: 15px;
+	margin-right: 5px;
+	background-color: #fff;
+	color: #47a3da;
+	-webkit-border-radius: 	50%;
+	        border-radius: 	50%;
 }
